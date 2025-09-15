@@ -1,0 +1,14 @@
+{
+  "name": "baseline-buddy",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build": "echo \"Build step (will be replaced later)\"",
+    "test": "echo \"Run tests (will be replaced later)\"",
+    "lint": "echo \"Run lint (will be replaced later)\"",
+    "sync": "node packages/web-features-sync/dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "5.9.2"
+  }
+}
